@@ -102,3 +102,6 @@ Logical Operators: not, and, or
 # x = False
 # x = not x
 # print(x) # prints true
+
+# =====================================
+# comparison  operations
