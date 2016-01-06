@@ -17,3 +17,15 @@ for oh so long
 over so many lines
 cucumber'''
 #without the triple quotes, this would error. it prints with th eline breaks.
+print "hello \
+world"
+#that \ breaks the line break, so it returns inline
+#even here
+print 3 + 5 \
++ 4 +\
+4
+
+# \n will add a line break. if your string contains \n (as in not a line break)
+# break the line break like so \\n
+
+print "line \\n break"
