@@ -1,0 +1,60 @@
+print(type("hello") == str)
+print(type(12) == int)
+print(type(12.1) == float)
+print(type([1, 2, 4]) == list)
+print(type({}) == dict)
+
+^ the above allows you to test for type
+# ==================================
+
+identifier names start with a letter or an underscore (_). cannot start with a digit.
+
+# ==================================
+
+Tuples: immutable; stores multiple numbers.
+List: mutable; stores multiple members.
+Dictionary: key-value pairs
+
+# ==================================
+String: access characters in string using index. (+/- numbers)
+
+String is used to store and process textual data.
+strings surrounded by single, double, or triple quotes.
+Triple quotes: use all the same type of quotes: ex. """string""" or '''string'''
+Triple quotes let you use multiline strings
+#print("""hello, do do dare say
+#that
+#all is
+#well""")
+
+# print("hello"[0 - len('hello')])
+# # or
+# print('hello'[0])
+# #for first letter
+# print("hello"[len("hello")-1])
+# #or
+# print("hello"[-1])
+# # for the last
+
+# ====================================
+#lists
+# sample = [1, "python", 0, 5]
+# print(sample[1])  # will yield "python"
+
+# =====================================
+
+# tuples are like immutable lists
+# sample = ("first", "second", 2, 5)
+# you print and access by index as the same way as lists.
+
+# =====================================
+ # dictionary
+
+ #group of members by key/values pair.
+ #you can use any type of unique key/value
+ #difference between this and lists/tuples is that you can use any type of unique
+ # key/values
+
+ # dict1 = {"a": "hello", "b": 3}
+ #dict1['var'] = 66
+ # print(dict1['a'])
