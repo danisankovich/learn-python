@@ -58,3 +58,47 @@ Triple quotes let you use multiline strings
  # dict1 = {"a": "hello", "b": 3}
  #dict1['var'] = 66
  # print(dict1['a'])
+
+ # =====================================
+ # input() function
+
+ # age = input("Please Enter your age: " )
+ # print(type(age))
+ # print("your age is " + str(age))
+
+ # that = raw_input()
+ # print(type(that))
+ # print(that)
+
+ #raw input takes input as string
+
+ # age = raw_input()
+ # print(type(float(age)))
+ #for this, if you inptu a float number (ex. 5.5), you have to do float(), not int.
+
+# =====================================
+
+# floor division
+# print (27.0//4.0)   6 (floor division)
+# print(27.0/4.0)    6.75 (regular division)
+
+# =====================================
+Logical Operators: not, and, or
+
+# x = True
+# y = False
+# z = y or x
+# print(z) # prints True => looks to see if either is true
+
+# x = True
+# y = False
+# z = y and x
+# print(z) # prints false => looks to see if both are true
+
+# x = True
+# x = not x
+# print(x) # prints false
+
+# x = False
+# x = not x
+# print(x) # prints true
