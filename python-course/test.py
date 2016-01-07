@@ -1,33 +1,8 @@
-x = 3
-y = 4
-z = 0
-z += x
-z -= y
-print(z)
+# if (condition): task_if
+# if condition: task_if
+number = input()
+if number == 2: print("The number is two")
+elif number == 10: print("That's odd, it's ten")
+else: print("The number is not 2, the number is " + str(number))
 
-x == y # false
-x != y # true
-x > y # false
-x < y # true
-x >= y # false
-x <= y # true
-
-# Logical Operators: not, and, or
-
-x = True
-y = False
-z = y or x # or |
-print(z) # prints True => looks to see if either is true
-
-x = True
-y = False
-z = y and x # or &
-print(z) # prints false => looks to see if both are true
-
-x = True
-x = not x
-print(x) # prints false
-
-x = False
-x = not x
-print(x) # prints true
+# if, else (if all other conditions are false), elif
