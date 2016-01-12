@@ -104,4 +104,24 @@ Logical Operators: not, and, or
 # print(x) # prints true
 
 # =====================================
-# comparison  operations
+# while loops: does something while a condition is true
+while (expression):
+  do something
+
+
+# number = 0
+# while number <= 100:
+#     print int(number), " is the current number"
+#     number += 1
+
+#for loop: does something for everything within a range/sequence
+
+# beginning = 0
+# end = 100
+# step = 1
+# for number in range(0, end + 1, step): #range means from the beginning to end, non inclusive of end
+#     print int(number), " is the current number"
+
+# list = ["book", "tape", "film", "magazine", "game"]
+# for item in list: #item in list does the whole thing
+#     print item, " is the current item"
