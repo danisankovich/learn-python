@@ -42,3 +42,28 @@
 #     if number == 5:
 #         pass
 #     print number
+
+#foor loops can use break, continue, and pass as well
+# beginning = 0
+# end = 15
+# step = 1
+# for number in range(beginning, end + 1, step):
+#     if number == 5:
+#         break
+#     print number
+#
+# for number in range(beginning, end + 1, step):
+#     if number == 5 | 7:
+#         continue
+#     print number
+
+# for number in range(beginning, end + 1, step):
+#     if number == 5:
+#         pass
+#     print number
+
+# while(True): #enter into an infinite loop (sort of. You can break out wiht proper input)
+#     pw = raw_input("Enter Password: ")
+#     if pw == "awesomepassword":
+#         break
+# print("Access Granted")
