@@ -40,20 +40,17 @@ def draw_shapes():
 
 def circle_square():
     count = 0
-    loop = 0
     cub = turtle.Turtle()
     cub.shape("turtle")
     cub.color("purple")
     cub.speed(30)
-    while(loop < 72):
+    for i in range(1, 37):
         if(count != 0):
             count = 0
-        while(count < 4):
+        for x in range(1, 5):
             cub.forward(100)
             cub.right(90)
-            count += 1
-        cub.right(5)
-        loop += 1
+        cub.right(10)
 def draw_shapes():
     window = turtle.Screen()
     window.bgcolor("pink")
