@@ -2,6 +2,7 @@
 
 import webbrowser
 
+# movie class instantiates a movie with title, storyline, poster image, youtube trailer, release date, rating, and genres
 class Movie():
     #double underscore indicates special functino/method
     #init takes self as a parameter

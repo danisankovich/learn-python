@@ -120,9 +120,10 @@ main_page_content = '''
 
 # A single movie entry html template
 movie_tile_content = '''
-<div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
+<div style="height: 600px" class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
     <h2>{movie_title}</h2>
+    <h4>Plot: <span style="font-size: 14px">{storyline}</span></h4>
     <h4>Genres: <span style="font-size: 14px">{genre}</span></h4>
     <h4>Release Date: <span style="font-size: 14px">{release_date}</span></h4>
     <h4>Rotten Tomatoes: <span style="font-size: 14px">{rating}</span></h4>
@@ -149,7 +150,8 @@ def create_movie_tiles_content(movies):
             trailer_youtube_id=trailer_youtube_id,
             genre=movie.genre,
             rating=movie.rotten_tomatoes_rating,
-            release_date=movie.release_date
+            release_date=movie.release_date,
+            storyline=movie.storyline
         )
     return content
 

@@ -1,6 +1,9 @@
 import movie #Class construction file for movies
 import fresh_tomatoes #html rendering info
 
+#the following 6 movies are instantiated from movie.py
+#movie parameters: title, storyline, poster, youtube, release date, rating, genres
+
 harry_potter_one = movie.Movie("Harry Potter and the Sorcerer's Stone",
                                "A sttory of a young boy who discovers a magical secret",
                                "https://upload.wikimedia.org/wikipedia/en/6/6b/Harry_Potter_and_the_Philosopher%27s_Stone_Book_Cover.jpg",
@@ -52,4 +55,5 @@ crazy_stupid_love = movie.Movie("Crazy, Stupid, Love",
 #open_movies_page in fresh tomatoes requires a list
 movies = [harry_potter_one, toy_story, fellowship, guardians_of_the_galaxy, empire_strikes_back, crazy_stupid_love]
 
+#this function from fresh tomatoes launches the web page
 fresh_tomatoes.open_movies_page(movies)
