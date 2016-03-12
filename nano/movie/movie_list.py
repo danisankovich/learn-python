@@ -30,3 +30,7 @@ crazy_stupid_love = movie.Movie("Crazy, Stupid, Love",
                                 "A tale of love, loss, and rekindling",
                                 "https://upload.wikimedia.org/wikipedia/en/7/78/CrazyStupidLovePoster.jpg",
                                 "https://www.youtube.com/watch?v=aDLhjm-0rJQ")
+
+movies = [harry_potter_one, toy_story, fellowship, guardians_of_the_galaxy, empire_strikes_back, crazy_stupid_love]
+
+fresh_tomatoes.open_movies_page(movies)
