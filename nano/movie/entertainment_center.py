@@ -6,7 +6,8 @@ toy_story = movie.Movie('Toy Story',
                         'https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg',
                         'https://www.youtube.com/watch?v=KYz2wyBy3kc')
 
-avatar = movie.Movie("avatar", "pocahontas ripoff", "poster image link", "youtu link")
+avatar = movie.Movie("avatar",
+                     "pocahontas ripoff", "poster image link", "youtu link")
 
 #instance variables: the parameters within an instance of a class
 
